@@ -5,6 +5,11 @@
     background-repeat: no-repeat;
 }
 
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
 h1{
     color:rgb(253, 105, 182);
     font-family:'Luckiest Guy';
@@ -12,6 +17,10 @@ h1{
     text-align: center;
     text-decoration: underline dotted rgb(255, 255, 255);
     text-transform: none;
+    width: 100%;
+    margin: 0%;
+    padding: 5%;
+    
 }
 
 h2{
@@ -20,6 +29,9 @@ h2{
     font-size: 1em;
     text-align: center;
     line-height: 0.3em;
+    width: 100%;
+    margin: 0%;
+    padding: 2%;
 }
 
 h3{
@@ -28,11 +40,19 @@ h3{
     font-size: 2em;
     text-decoration:underline dotted rgb(255, 255, 255);
     line-height: 1em;
+    width: 0%;
+    margin: 2%;
+    padding: 2%;
+
+    widththis isnt changing anything
 }
 
 div.bio p {
     color: rgb(255, 255, 255);
     line-height: 2em;
+    width: 100%;
+    margin: 3%;
+    padding: 2%;
 }
 
 p{
@@ -46,8 +66,10 @@ p{
 #mainNav{
     display:block;
     text-align: center;
-    padding: 1em;
     list-style-type:circle;
+    width: 100%;
+    margin: 2%;
+    padding: 2%;
 }
 
 ul{
@@ -68,14 +90,18 @@ a:hover{
     
 li{
     display: inline;
-    padding: 2em;
 }
 img{
-    width: 20%;
+    width: 50%;
     height: auto;
+    margin: 0%;
+    width: 50%;
+    padding: 1%;
 }
 
 footer p{
     text-align: right;
+    width: 100%;
+    margin: 0%;
+    padding: 2%;
 }
-
