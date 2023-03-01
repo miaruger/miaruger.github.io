@@ -1,0 +1,38 @@
+#ali{
+    width: 90%;
+    height: auto;
+}
+
+h1{ 
+    color: rgb(234, 0, 255); animation-name: mia;
+    animation-duration: 10s; 
+    transition: color 1s;
+}  
+
+h1:hover{
+    color: aqua;
+}
+
+
+@keyframes astro {
+    0% {right: -300px; opacity: 0;}
+    25% {opacity: 1;}
+    100% {right: 2000px; opacity: 0;}
+    
+}
+
+img#astro {
+    
+    display: block;
+    width: 150px;
+    height: auto;
+    opacity: 0;
+    position: relative;
+    top: 20px;
+    right: -300px;
+    animation-name: astro;
+    animation-delay: 1s;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
+    
+}
